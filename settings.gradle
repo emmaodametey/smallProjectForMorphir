@@ -1,0 +1,4 @@
+rootProject.name = 'smallProject'
+include 'javaModule'
+include 'scala'
+
