@@ -5,34 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="183ab287-1466-4a39-a4f9-85c8a7ca25a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaModule/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/debma/ScalaCaseClass.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/debma/ScalaObject.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/dist/traderx/models/TradeOrder.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/dist/traderx/models/TradeSide.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/dist/traderx/models/TradeState.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaLibrary/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaLibrary/src/main/scala/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaLibrary/src/main/scala/models/TradeOrder.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaLibrary/src/main/scala/models/TradeSide.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scalaLibrary/src/main/scala/models/TradeState.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/internal/collection/decorators/IterableDecorator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/internal/collection/decorators/IteratorDecorator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/internal/collection/decorators/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Aggregate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Basics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Char.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Decimal.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/DecimalModuleCompat.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Dict.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Float.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Int.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Key.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/List.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/LocalDate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/LocalTime.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Maybe.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/MaybeLike.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/MorphirConversions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/NonEmptyListModule.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Number.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Regex.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Result.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Rule.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Set.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/StatefulApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/String.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/StringOps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/Tuple.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/morphir/sdk/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/traderx/models/TradeOrder.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/traderx/models/TradeSide.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/traderx/models/TradeState.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaModule/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaModule/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/scala/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/main/scala/dist/traderx/models/TradeOrder.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/main/scala/dist/traderx/models/TradeSide.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/main/scala/dist/traderx/models/TradeState.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +109,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/emma.odametey/Desktop/projects/smallProject/scalaLibrary/src/main/scala",
+    "last_opened_file_path": "C:/Users/emma.odametey/Desktop/projects/smallProject/scala/src/main/scala",
     "org.elm.workspace.PROJECT_DISCOVERY": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\emma.odametey\Desktop\projects\smallProject\scala\src\main\scala" />
       <recent name="C:\Users\emma.odametey\Desktop\projects\smallProject\scalaLibrary\src\main\scala" />
       <recent name="C:\Users\emma.odametey\Desktop\projects\smallProject\scala\src\main" />
       <recent name="C:\Users\emma.odametey\Desktop\projects\smallProject\src\main" />

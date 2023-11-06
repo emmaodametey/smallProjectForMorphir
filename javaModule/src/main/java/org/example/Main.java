@@ -1,24 +1,22 @@
 package org.example;
-
-//import dist.traderx.models.TradeOrder.TradeOrder;
-
 import debma.ScalaCaseClass;
 import debma.ScalaCaseClass$;
 import debma.ScalaObject;
-//import dist.traderx.models.TradeOrder;
-//import dist.traderx.models.TradeOrder.TradeOrder;
-//import dist.traderx.models.TradeSide;
+import traderx.models.TradeOrder.TradeOrder;
+import traderx.models.TradeSide;
+import traderx.models.TradeSide.TradeSide$;
 
 
 public class Main {
 
     public static void main(String[] args) {
         ScalaCaseClass scalaCaseClass = new ScalaCaseClass(12, "Morphir");
-//        TradeSide side = (TradeSide) TradeSide.Buy();
+//        TradeSide.TradeSide.Buy$ side = TradeSide$.MODULE$.Buy();
+//        TradeSide$ tradeSide = TradeSide$.MODULE$.;
 
-//        TradeOrder tradeOrder = new TradeOrder('1','1', '1', '1', '4', '1');
-//        System.out.println(side);
-        System.out.println(scalaCaseClass.getName());
+        TradeOrder tradeOrder = new TradeOrder("1","1", "1", 1, '4', );
+        System.out.println(tradeOrder);
+//        System.out.println(tradeOrder.security());
     }
 
 }
